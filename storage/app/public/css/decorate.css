@@ -1,0 +1,191 @@
+div#main {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+div#main>div {
+    padding-top: 90px;
+    min-height: 100vh;
+}
+
+div#between-content>* {
+    color: white !important;
+    margin-right: 10px;
+}
+
+#account-content {
+    color: black !important;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.shoppool-nav {
+    background: linear-gradient(to right, #e52d27, #b31217);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.sp-nav-font>a {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: rgb(201, 201, 201) !important;
+}
+
+.sp-nav-font>a:hover,
+.sp-nav-font-active>a {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: whitesmoke !important;
+}
+
+.sp-nav-dropdown-menu>a:hover {
+    color: rgb(255, 255, 255) !important;
+    background: #ff0000;
+}
+
+.sp-nav-dropdown-menu>a {
+    color: yellowgreen;
+}
+
+.sp-nav-icon>li>a>img {
+    height: 40px;
+    transition: .25s;
+}
+
+.sp-nav-icon>li>a>img:hover {
+    filter: brightness(50%);
+    height: 60px;
+}
+
+.sp-nav-right>li {
+    margin: auto;
+}
+
+.form-auth {
+    margin-top: 6vh;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border-radius: 30px;
+}
+
+.bg-home {
+    background-image: url("../pictures/bg/bg-home.jpg");
+    max-height: 300vh;
+    height: 100;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-lr {
+    background-image: url("../pictures/bg/bg-lr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#home {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.bg-orange {
+    background: #f89f9f;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f89f9f, #ffccdd);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f89f9f, #ffccdd);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f89f9f, #ffccdd);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f89f9f, #ffccdd);
+    /* Standard syntax */
+}
+
+.logo-font {
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    background: linear-gradient(to top, #fffffd 20%, rgb(255, 255, 255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px 1px white);
+    line-height: 0.5em;
+}
+
+.logo-font1 {
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    background: linear-gradient(to top, #fffffd 20%, rgb(255, 255, 255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px 1px whitesmoke);
+    line-height: 0.5em;
+}
+
+.table {
+    table-layout: fixed;
+}
+
+th,
+td {
+    vertical-align: middle !important;
+}
+
+.overflow-h {
+    max-height: 400px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.overflow-h .item-h {
+    min-width: 300px;
+}
+
+.overflow-v {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.overflow-v .item-v {
+    min-height: 300px;
+}
+
+.space-left>* {
+    margin-left: 10px;
+}
+
+.space-right>* {
+    margin-right: 10px;
+}
+
+.shrink-text {
+    max-width: fit-content;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sp-flex {
+    flex-flow: wrap;
+    justify-content: start;
+}
+
+.space-bottom>* {
+    margin-bottom: 15px;
+}
+
+.space-checkout>* {
+    width: 15vw;
+}
+
+.product-item {
+    transition: .25s;
+}
+
+.produt-item:hover {
+    filter: brightness(50%);
+}

@@ -1,0 +1,5 @@
+# *
+# !.git/
+/products/*
+/avatars/*
+/promotions/*

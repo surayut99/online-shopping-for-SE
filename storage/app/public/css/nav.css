@@ -1,0 +1,8 @@
+.shoppool-nav {
+    background: linear-gradient(to right, #e52d27, #b31217);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
